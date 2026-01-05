@@ -1,10 +1,11 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.6
+
 import PackageDescription
 
 let package = Package(
      name: "SwiftCharts",
      platforms: [
-         .iOS(.v9)
+         .iOS(.v13)
      ],
      products: [
          .library(name: "SwiftCharts", type: .dynamic, targets: ["SwiftCharts"])
